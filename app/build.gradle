@@ -1,0 +1,22 @@
+apply plugin: "base"
+apply plugin: "com.moowork.node"
+
+node {
+    version = "7.6.0"
+    yarnVersion = "0.23.4"
+    download = true
+    nodeModulesDir = file("${project.projectDir}")
+    workDir = file("${project.buildDir}/nodejs")
+    yarnWorkDir = file("${project.buildDir}/yarn")
+}
+
+task webpackBuild(type: YarnTask, dependsOn: tasks.yarn) {
+    args = ['run', 'build']
+}
+
+task eslint(type: YarnTask, dependsOn: tasks.yarn) {
+    args = ['run', 'eslint']
+}
+
+dependencies {
+}
