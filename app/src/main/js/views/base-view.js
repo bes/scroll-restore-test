@@ -43,6 +43,9 @@ class BaseView extends React.Component {
                     <li>
                       <span style={{backgroundColor: "red"}}>Opera Version 45.0.2552.635 (64-bit): Scroll Restoration does NOT work</span>
                     </li>
+                    <li>
+                      <span style={{backgroundColor: "green"}}>Microsoft Edge Version 38.14393.1066.0 (64-bit): Scroll Restoration works properly</span>
+                    </li>
                   </ul>
                 </li>
                 <li>
@@ -60,11 +63,14 @@ class BaseView extends React.Component {
                     <li>
                       <span style={{backgroundColor: "green"}}>Opera Version 45.0.2552.635 (64-bit): Scroll Restoration works properly</span>
                     </li>
+                    <li>
+                      <span style={{backgroundColor: "green"}}>Microsoft Edge Version 38.14393.1066.0 (64-bit): Scroll Restoration works properly</span>
+                    </li>
                   </ul>
                 </li>
               </ul>
               Scroll down to find the links. &#x25BC; &#x25BC; &#x25BC; &#x25BC;
-              <p style={{ marginTop: "1000px" }}>
+              <p style={{ marginTop: "150vh" }}>
                 <Link to="/short-page">To short page</Link>
               </p>
               <p>

@@ -11,7 +11,7 @@ class LongPage extends React.Component {
 
   render() {
     return (
-      <div style={{minHeight: "2000px", backgroundColor: "#69b"}}>
+      <div style={{minHeight: "200vh", backgroundColor: "#69b"}}>
         <h1>Long content page</h1>
         When navigating back from this page, scroll restoration <span
         style={{ backgroundColor: "green" }}>works properly in all browsers</span>.

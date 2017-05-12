@@ -10,11 +10,11 @@ node {
     yarnWorkDir = file("${project.buildDir}/yarn")
 }
 
-task webpackBuild(type: YarnTask, dependsOn: tasks.yarn) {
+task webpackBuild(type: YarnTask, dependsOn: tasks.yarn_install) {
     args = ['run', 'build']
 }
 
-task eslint(type: YarnTask, dependsOn: tasks.yarn) {
+task eslint(type: YarnTask, dependsOn: tasks.yarn_install) {
     args = ['run', 'eslint']
 }
 
