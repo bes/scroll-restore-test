@@ -140,7 +140,7 @@ module.exports = (debug) => (env) => {
     },
     output: {
       path: destPath,
-      publicPath: '/',
+      publicPath: '',
       filename: debug ? '[name].js' : '[name].[chunkhash].js',
       chunkFilename: debug ? '[name].js' : '[name].[chunkhash].js',
     },
