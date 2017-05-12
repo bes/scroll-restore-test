@@ -13525,6 +13525,15 @@ var BaseView = function (_React$Component) {
                         { style: { backgroundColor: "red" } },
                         "Opera Version 45.0.2552.635 (64-bit): Scroll Restoration does NOT work"
                       )
+                    ),
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      "li",
+                      null,
+                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        "span",
+                        { style: { backgroundColor: "green" } },
+                        "Microsoft Edge Version 38.14393.1066.0 (64-bit): Scroll Restoration works properly"
+                      )
                     )
                   )
                 ),
@@ -13570,6 +13579,15 @@ var BaseView = function (_React$Component) {
                         { style: { backgroundColor: "green" } },
                         "Opera Version 45.0.2552.635 (64-bit): Scroll Restoration works properly"
                       )
+                    ),
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      "li",
+                      null,
+                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        "span",
+                        { style: { backgroundColor: "green" } },
+                        "Microsoft Edge Version 38.14393.1066.0 (64-bit): Scroll Restoration works properly"
+                      )
                     )
                   )
                 )
@@ -13577,7 +13595,7 @@ var BaseView = function (_React$Component) {
               "Scroll down to find the links. \u25BC \u25BC \u25BC \u25BC",
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 "p",
-                { style: { marginTop: "1000px" } },
+                { style: { marginTop: "150vh" } },
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   __WEBPACK_IMPORTED_MODULE_1_react_router_dom__["d" /* Link */],
                   { to: "/short-page" },
@@ -13656,7 +13674,7 @@ var LongPage = function (_React$Component) {
     value: function render() {
       return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         "div",
-        { style: { minHeight: "2000px", backgroundColor: "#69b" } },
+        { style: { minHeight: "200vh", backgroundColor: "#69b" } },
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           "h1",
           null,
